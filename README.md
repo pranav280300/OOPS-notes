@@ -310,3 +310,11 @@ Polymorphism is extensively used in implementing inheritance.
 }; ```
      - Friend Function can become friend to more than one class.
      - It does not matter in which section(public,private,protected) you declare friend function.
+     
+   - Access Modifiers in C++:
+       - Access modifiers are used to implement an important aspect of Object-Oriented Programming known as Data Hiding.
+       - Access Modifiers or Access Specifiers in a class are used to assign the accessibility to the class members. That is, it sets some            restrictions on the class members not to get directly accessed by the outside functions.       
+       - There are 3 types of access modifiers available in C++: 
+             - **Public**
+             - **Private**
+             - **Protected**
