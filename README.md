@@ -298,6 +298,15 @@ Polymorphism is extensively used in implementing inheritance.
 ## Some Miscellaneous concepts: 
 
 - Friend Funtions: 
+     - A friend function in C++ is defined as a function that can access private, protected and public members of a class.
      - Friend Functions is not a member function of a class to which it is a friend.
      - Friend function is declared in the class with ` friend ` keyword.
      - It must be defined outside the class to which it is friend.
+     - It has no caller object.
+     - It should not be defined with membership label.
+     -  Declaration: ``` class class_name
+{
+   friend data_type function_name(arguments/s); //syntax of friend function. 
+}; ```
+     - Friend Function can become friend to more than one class.
+     - It does not matter in which section(public,private,protected) you declare friend function.
