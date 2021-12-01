@@ -293,3 +293,11 @@ Polymorphism is extensively used in implementing inheritance.
 | It is achieved by function overloading and operator overloading. | It is achieved by virtual functions and pointers.            |
 | It provides fast execution as it is known at the compile time. | It provides slow execution as it is known at the run time.   |
 | It is less flexible as mainly all the things execute at the compile time. | It is more flexible as all the things execute at the run time. |
+
+
+## Some Miscellaneous concepts: 
+
+- Friend Funtions: 
+     - Friend Functions is not a member function of a class to which it is a friend.
+     - Friend function is declared in the class with ` friend ` keyword.
+     - It must be defined outside the class to which it is friend.
